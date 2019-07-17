@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+</head>
+<body>
+<h1> Cars </h1>
+<form method="POST" action="/cars/<%=index%>?_method=PUT"> 
+        Name: <input type="text" name="name" value="<%=car.name%>"/><br/> 
+        Model: <input type="text" name="model" value="<%=car.model%>"/><br/> 
+        Year: <input type="text" name="year" value="<%=car.year%>"/><br/> 
+        <input type="submit" name="edit" value="Submit Changes"/>
+    </form>
+</body>
+</html>
